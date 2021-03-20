@@ -1,0 +1,27 @@
+{
+  "name": "guilds-hub-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiggyPlex/guilds-hub-bot.git"
+  },
+  "keywords": [],
+  "author": "PiggyPlex",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/PiggyPlex/guilds-hub-bot/issues"
+  },
+  "homepage": "https://github.com/PiggyPlex/guilds-hub-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "discord.js-commando": "^0.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
