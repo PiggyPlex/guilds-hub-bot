@@ -1,4 +1,10 @@
-module.exports = {
-  name: 'Events',
-  description: 'All commands for managing events.'
+const CommandCategory = require(`${process.cwd()}/resources/classes/CommandCategory.js`);
+
+module.exports = class EventsCategory extends CommandCategory {
+  constructor() {
+    super({
+      name: 'Events',
+      description: 'Test'
+    });
+  };
 };
